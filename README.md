@@ -25,7 +25,12 @@ second-service - example for apigateway service
 2. gateway를 통해 first/second 서비스에 접근
 3. 복수의 service를 등록하여 eureka가 load balancing
 
+### request example
+```
+GET localhost:8000/first-service/check
+```
+random port설정을 해놓은 first service는 여러개가 띄워져 있을때 eureka가 자동으로 로드밸런싱 하여 서버 매핑해줌.
 
-
+### eureka image
 ![image](https://user-images.githubusercontent.com/45115557/186111806-b67aad10-6706-4077-802f-53c7cef2203b.png)
 
