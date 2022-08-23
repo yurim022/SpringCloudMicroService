@@ -10,12 +10,10 @@
 * Eureka
 * zuul
 
-## API Gateway + Service discovery
+## API Gateway + Service discovery + Sample service
 discoveryservice - Service discovery   
 apigateway-service - Spring Cloud Gateway   
 zuul-service - Spring Cloud Netflix Zuul   
-
-## Sample codes
 first-service - example for apigateway service   
 second-service - example for apigateway service
 
