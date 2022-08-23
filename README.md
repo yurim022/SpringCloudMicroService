@@ -27,6 +27,9 @@ second-service - example for apigateway service
 ```
 GET localhost:8000/first-service/check
 ```
+![image](https://user-images.githubusercontent.com/45115557/186112856-186d0113-42d3-4e4a-8017-fb9f90f87cf4.png)
+
+
 random port설정을 해놓은 first service는 여러개가 띄워져 있을때 eureka가 자동으로 로드밸런싱 하여 서버 매핑해줌.
 
 ### eureka image
