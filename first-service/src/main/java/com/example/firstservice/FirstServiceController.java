@@ -21,4 +21,12 @@ public class FirstServiceController {
         log.info(header);
         return "Hello World in First Service.";
     }
+    
+    @GetMapping("/check")
+    public String check(HttpServletRequest request){
+        log.info("Server port = {}", request.getServerPort());
+        return String.format("This is a message from First Service on PORT %s"
+        , environment.getProperty("local.server.port"));
+    }
+    
 }
