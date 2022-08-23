@@ -26,7 +26,6 @@ second-service - example for apigateway service
 3. 복수의 service를 등록하여 eureka가 load balancing
 
 
-### eureka running example
 
 ![image](https://user-images.githubusercontent.com/45115557/186111806-b67aad10-6706-4077-802f-53c7cef2203b.png)
 
