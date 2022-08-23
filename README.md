@@ -20,8 +20,7 @@ first-service - example for apigateway service
 second-service - example for apigateway service
 
 
-### how to use
-
-1. first-service, second-service, api-gateway를 eureka 서버에 등록하고
+### how it works
+1. first-service, second-service, api-gateway를 eureka 서버에 등록
 2. gateway를 통해 first/second 서비스에 접근
 3. 복수의 service를 등록하여 eureka가 load balancing 해주는 것 확인
