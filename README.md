@@ -12,4 +12,6 @@
 
 ## description
 
-first-service, second-service, api-gateway를 eureka 서버에 등록하고, gateway를 통해 first/second 서비스에 접근 및 복수의 service를 등록하여 load balancing
+1. first-service, second-service, api-gateway를 eureka 서버에 등록하고
+2. gateway를 통해 first/second 서비스에 접근
+3. 복수의 service를 등록하여 eureka가 load balancing 해주는 것 확인
